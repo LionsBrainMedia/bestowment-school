@@ -1,0 +1,38 @@
+{
+  "id": "bestowment-school",
+  "title": "School of Bestowment",
+  "description": "Foundry support for School of Bestowment, by Lion's Brain Media.",
+  "version": "1.0",
+  "authors": [
+    {"name": "W. Brian Lane" 
+    }
+  ],
+  "compatibility": {
+    "minimum": "11.315",
+    "verified": "11.315"
+  },
+  "relationships": {
+    "systems": [{
+      "id": "pf2e",
+      "type": "system",
+      "manifest": "https://github.com/foundryvtt/pf2e/releases/latest/download/system.json",
+      "compatibility": {
+        "minimum": "5.10.3"
+      }
+    }]
+  },
+  "packs": [
+    {
+      "label": "School of Bestowment",
+      "type": "Item",
+      "name": "bestowment-school",
+      "path": "./packs/bestowment-school.db",
+      "system": "pf2e",
+      "package": "bestowment-school",
+      "private": false
+    }
+],
+  "url": "https://github.com/LionsBrainMedia/bestowment-school",
+  "manifest": "https://raw.githubusercontent.com/LionsBrainMedia/bestowment-school/master/module.json",
+  "download": "https://github.com/LionsBrainMedia/bestowment-school/archive/refs/heads/main.zip"
+}
